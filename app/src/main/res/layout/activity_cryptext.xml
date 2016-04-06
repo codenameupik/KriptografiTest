@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:gravity="center"
+        android:text="Uji Kriptografi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/White" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnUjiAES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/btn_5"
+        android:textColor="@color/tealThemeButtonText"
+        fbutton:buttonColor="@color/tealThemeButton"
+        fbutton:cornerRadius="0dp"
+        fbutton:shadowEnabled="false" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnUjiBlowfish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/btn_6"
+        android:textColor="@color/tealThemeButtonText"
+        fbutton:buttonColor="@color/tealThemeButton"
+        fbutton:cornerRadius="0dp"
+        fbutton:shadowEnabled="false" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnSQLite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="SQLITE"
+        android:textColor="@color/tealThemeButtonText"
+        fbutton:buttonColor="@color/tealThemeButton"
+        fbutton:cornerRadius="0dp"
+        fbutton:shadowEnabled="false" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:gravity="center"
+        android:text="PTIIK UB"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/White" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">kriptografiTest</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_send_sms">SendSMS</string>
+    <string name="title_activity_smskripto">CrypText</string>
+    <string name="title_activity_inbox_sms">InboxSMS</string>
+    <string name="title_activity_uji_aes">Uji AES</string>
+    <string name="title_activity_uji_blowfish">Uji Blowfish</string>
+    <string name="metode_aes">AES</string>
+    <string name="metode_blowfish">Blowfish</string>
+    <string name="btn_1">SMS Blowfish</string>
+    <string name="btn_2">SMS AES</string>
+    <string name="btn_3">Inbox Blowfish</string>
+    <string name="btn_4">Inbox AES</string>
+    <string name="btn_5">Uji AES</string>
+    <string name="btn_6">Uji Blowfish</string>
+</resources>
