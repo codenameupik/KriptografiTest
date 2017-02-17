@@ -13,7 +13,7 @@ public class AES {
         try {
             String encryptedMsg = AESCrypt.encrypt(password, message);
             final long endTime = System.nanoTime();
-            System.out.println("_xz ID: " + idskenario + " Total execution time: " + (endTime - startTime));
+            System.out.println("@AESEN ID: " + idskenario + " Total execution time: " + (endTime - startTime));
             return encryptedMsg;
         } catch (GeneralSecurityException e) {
             return "ERROR:" + e.getMessage();
@@ -28,8 +28,8 @@ public class AES {
         try {
             String messageAfterDecrypt = AESCrypt.decrypt(password, encryptedMsg);
             final long endTime = System.nanoTime();
-            System.out.println("_xy Total execution time: " + (endTime - startTime));
-            System.out.println("_xy Pesan :"+messageAfterDecrypt);
+            System.out.println("@AESDE Total execution time: " + (endTime - startTime));
+            System.out.println("Pesan :"+messageAfterDecrypt);
             return messageAfterDecrypt;
         } catch (GeneralSecurityException e) {
             return "ERROR";

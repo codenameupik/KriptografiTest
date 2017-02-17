@@ -2,81 +2,60 @@
 <items version="2" >
 
     <item
-        jar="D:\Workspace\CrypText\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="D:\Workspace\CrypText\app\build\intermediates\pre-dexed\debug\classes-0641e1b247b0942231811dbf1b820120d002854f.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\CrypText\app\build\intermediates\exploded-aar\info.hoang8f\fbutton\1.0.5\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
-        <dex dex="D:\Workspace\CrypText\app\build\intermediates\pre-dexed\debug\classes-575fdf75538a50bd1245a6f9bb655c761754750d.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\CrypText\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="D:\Workspace\CrypText\app\build\intermediates\pre-dexed\debug\classes-6de25be6832f0ae8f2a8dee1934e25f733f6b171.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\CrypText\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="D:\Workspace\CrypText\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-6eaf94fdbebd1757d3f96def10f10213327ab99e.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.scottyab\aescrypt\0.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="439f1fa08fbc88d31ffdb11d80a13211689da6aa">
-        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\pre-dexed\debug\classes-7e1b0ea792ed3405e913c8ae748ee75fe27aa44e.jar" />
-    </item>
-    <item
-        jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\pre-dexed\debug\classes-e94228ab739ecefcfa6329f5d141e56959c9d46b.jar" />
-    </item>
-    <item
         jar="E:\Software\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.1"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="D:\Workspace\CrypText\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-f9b40a646f91452d9e4d67a88d0273cabd3e4637.jar" />
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.0_f9b40a646f91452d9e4d67a88d0273cabd3e4637\classes.dex" />
     </item>
     <item
         jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\info.hoang8f\fbutton\1.0.5\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.1"
         sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
-        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\pre-dexed\debug\classes-5b80f5408ac2b715432ca5f97caa5e33f09c8eab.jar" />
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\info.hoang8f-fbutton-1.0.5_5b80f5408ac2b715432ca5f97caa5e33f09c8eab\classes.dex" />
     </item>
     <item
-        jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
-        jumboMode="false"
+        jar="D:\Workspace\KriptografiTest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         revision="23.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-e68a1691609855c1619263f33a31a5120e573ac3.jar" />
+        sha1="6cdae65c3130435baac2c4f656d36b59783d362b">
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b76999b7e9d17c2185fa424fad0f4d145c4c8ea\classes.dex" />
     </item>
     <item
-        jar="D:\Workspace\CrypText\app\build\intermediates\exploded-aar\com.scottyab\aescrypt\0.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="true"
         revision="23.0.1"
-        sha1="439f1fa08fbc88d31ffdb11d80a13211689da6aa">
-        <dex dex="D:\Workspace\CrypText\app\build\intermediates\pre-dexed\debug\classes-8b977a09c2ad1e6818cdb7c8a4ad29d3aab525d9.jar" />
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.0_e94228ab739ecefcfa6329f5d141e56959c9d46b\classes.dex" />
     </item>
     <item
         jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.1"
         sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\pre-dexed\debug\classes-280970e3747a6576ee478eb158f48e69ba668691.jar" />
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.0_280970e3747a6576ee478eb158f48e69ba668691\classes.dex" />
+    </item>
+    <item
+        jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.0_e68a1691609855c1619263f33a31a5120e573ac3\classes.dex" />
+    </item>
+    <item
+        jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.scottyab\aescrypt\0.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="439f1fa08fbc88d31ffdb11d80a13211689da6aa">
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.scottyab-aescrypt-0.0.1_7e1b0ea792ed3405e913c8ae748ee75fe27aa44e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Workspace\KriptografiTest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="de1d7ba3d729db2afc4f1b324aeb26bcd1baae39">
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_325baa6f0c2c4838957d46c25d3dd6a8d2d13291\classes.dex" />
     </item>
 
 </items>

@@ -24,10 +24,47 @@
         android:layout_height="wrap_content"
         android:text="Dekripsi Test" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skenario 2" />
+
+    <Button
+        android:id="@+id/btnEnkripsi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enkripsi Test" />
+
+    <Button
+        android:id="@+id/btnDekripsi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dekripsi Test" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skenario 3" />
+
+    <Button
+        android:id="@+id/btnEnkripsi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enkripsi Test" />
+
+    <Button
+        android:id="@+id/btnDekripsi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dekripsi Test" />
+
     <Button
         android:id="@+id/btnClearDB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Clear DB" />
 
-</LinearLayout><!-- From: file:/D:/Workspace/KriptografiTest/app/src/main/res/layout/activity_uji.xml -->
+</LinearLayout>

@@ -67,4 +67,4 @@
         android:layout_weight="0.56"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</LinearLayout><!-- From: file:/D:/Workspace/KriptografiTest/app/src/main/res/layout/activity_send_sms.xml -->
+</LinearLayout>

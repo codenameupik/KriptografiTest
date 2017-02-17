@@ -9,6 +9,8 @@ ADDED from D:\Workspace\KriptografiTest\app\src\main\AndroidManifest.xml:1:1-40:
 		INJECTED from D:\Workspace\KriptografiTest\app\src\main\AndroidManifest.xml
 	android:versionName
 		ADDED from D:\Workspace\KriptografiTest\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\Workspace\KriptografiTest\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspace\KriptografiTest\app\src\main\AndroidManifest.xml
 	android:versionCode
 		ADDED from D:\Workspace\KriptografiTest\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from D:\Workspace\KriptografiTest\app\src\main\AndroidManifest.xml

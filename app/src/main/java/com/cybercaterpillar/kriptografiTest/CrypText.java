@@ -22,6 +22,8 @@ public class CrypText extends AppCompatActivity {
         DatabaseHandler db = new DatabaseHandler(this);
         DataPengujian dapeng = new DataPengujian();
         dapeng.dataPengujianSkenario1(db);
+        dapeng.dataPengujianSkenario2(db);
+        dapeng.dataPengujianSkenario3(db);
         //dapeng.dataPengujianS1HasilEnkripsi(db, 0, "0");
 
         btnUjiAES.setOnClickListener(new View.OnClickListener() {

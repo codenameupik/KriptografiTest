@@ -3,24 +3,27 @@ package database;
 public class Skenario2 {
     //private variables
     int _id;
-    String _kunci;
+    int _bytes;
     String _teks;
+    String _kunci;
 
     // Empty constructor
     public Skenario2(){
 
     }
     // constructor
-    public Skenario2(int id, String kunci, String teks){
+    public Skenario2(int id, int bytes, String teks, String kunci){
         this._id = id;
-        this._kunci = kunci;
+        this._bytes = bytes;
         this._teks = teks;
+        this._kunci = kunci;
     }
 
     // constructor
-    public Skenario2(String kunci, String teks){
-        this._kunci = kunci;
+    public Skenario2(int bytes, String teks, String kunci){
+        this._bytes = bytes;
         this._teks = teks;
+        this._kunci = kunci;
     }
     // getting ID
     public int getID(){
@@ -30,6 +33,16 @@ public class Skenario2 {
     // setting id
     public void setID(int id){
         this._id = id;
+    }
+
+    // getting bytes
+    public int getBytes(){
+        return this._bytes;
+    }
+
+    // setting bytes
+    public void setBytes(int bytes){
+        this._bytes = bytes;
     }
 
     // getting teks

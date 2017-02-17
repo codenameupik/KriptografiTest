@@ -47,4 +47,4 @@
         android:layout_width="match_parent"
         android:layout_height="392dp"></ListView>
 
-</LinearLayout><!-- From: file:/D:/Workspace/KriptografiTest/app/src/main/res/layout/activity_inbox.xml -->
+</LinearLayout>
