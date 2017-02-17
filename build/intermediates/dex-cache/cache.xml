@@ -9,6 +9,13 @@
         <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.0_f9b40a646f91452d9e4d67a88d0273cabd3e4637\classes.dex" />
     </item>
     <item
+        jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.0_280970e3747a6576ee478eb158f48e69ba668691\classes.dex" />
+    </item>
+    <item
         jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\info.hoang8f\fbutton\1.0.5\jars\classes.jar"
         jumboMode="true"
         revision="23.0.1"
@@ -19,7 +26,7 @@
         jar="D:\Workspace\KriptografiTest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="6cdae65c3130435baac2c4f656d36b59783d362b">
+        sha1="7d7683d332150eafaee18e355200168a8a454fdd">
         <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b76999b7e9d17c2185fa424fad0f4d145c4c8ea\classes.dex" />
     </item>
     <item
@@ -28,13 +35,6 @@
         revision="23.0.1"
         sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
         <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.0_e94228ab739ecefcfa6329f5d141e56959c9d46b\classes.dex" />
-    </item>
-    <item
-        jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.0_280970e3747a6576ee478eb158f48e69ba668691\classes.dex" />
     </item>
     <item
         jar="D:\Workspace\KriptografiTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
@@ -54,7 +54,7 @@
         jar="D:\Workspace\KriptografiTest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="de1d7ba3d729db2afc4f1b324aeb26bcd1baae39">
+        sha1="e78b04fab5746d9e020bfe1e2f144dc4ae0e2b4e">
         <dex dex="D:\Workspace\KriptografiTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_325baa6f0c2c4838957d46c25d3dd6a8d2d13291\classes.dex" />
     </item>
 

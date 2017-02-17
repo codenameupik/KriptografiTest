@@ -30,8 +30,9 @@ public class Blowfish {
             cipher.init(Cipher.DECRYPT_MODE, KS);
             byte[] decrypted = cipher.doFinal(Base64.decode(chiperText, Base64.NO_PADDING));
             final long endTime = System.nanoTime();
+            String strdecrypted = new String(decrypted, "UTF-8");
             System.out.println("@BLOWDE Total execution time: " + (endTime - startTime));
-            System.out.println("Pesan :"+decrypted);
+            System.out.println("Pesan :"+strdecrypted);
             return new String(decrypted);
         } catch (Exception e) {
             return "ERROR";
