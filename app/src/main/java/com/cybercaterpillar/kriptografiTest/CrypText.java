@@ -3,14 +3,16 @@ package com.cybercaterpillar.kriptografiTest;
 import android.os.Bundle;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
 import database.DatabaseHandler;
+import database.S1HasilEnkripsi;
 
 public class CrypText extends AppCompatActivity {
-
+    DatabaseHandler db = new DatabaseHandler(this);
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,12 +21,16 @@ public class CrypText extends AppCompatActivity {
         final Button btnUjiBlowfish = (Button) findViewById(R.id.btnUjiBlowfish);
         final Button btnSQLite = (Button) findViewById(R.id.btnSQLite);
 
-        DatabaseHandler db = new DatabaseHandler(this);
-        DataPengujian dapeng = new DataPengujian();
-        dapeng.dataPengujianSkenario1(db);
-        dapeng.dataPengujianSkenario2(db);
-        dapeng.dataPengujianSkenario3(db);
-        //dapeng.dataPengujianS1HasilEnkripsi(db, 0, "0");
+        new Thread(new Runnable() {
+            public void run() {
+
+                DataPengujian dapeng = new DataPengujian();
+                dapeng.dataPengujianSkenario1(db);
+                dapeng.dataPengujianSkenario2(db);
+                dapeng.dataPengujianSkenario3(db);
+            }
+        }).start();
+
 
         btnUjiAES.setOnClickListener(new View.OnClickListener() {
 
