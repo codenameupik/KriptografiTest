@@ -16,7 +16,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     // All Static variables
     // Database Version
-    private static final int DATABASE_VERSION = 6;
+    private static final int DATABASE_VERSION = 7;
 
     // Database Name
     private static final String DATABASE_NAME = "dataPengujian";
@@ -192,7 +192,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public void deleteAllS1hasilenkripsi() {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("delete from "+ TABLE_S1HASILENKRIPSI);
-        db.close();
+        //db.close();
     }
     //--
     // Adding new data s1hasilenkripsiBlowfish
@@ -239,7 +239,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public void deleteAllS1hasilenkripsiblowfish() {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("delete from "+ TABLE_S1HASILENKRIPSIBLOWFISH);
-        db.close();
+        //db.close();
     }
     //--
 
@@ -389,7 +389,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public void deleteAllS2hasilenkripsi() {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("delete from "+ TABLE_S2HASILENKRIPSI);
-        db.close();
+        //db.close();
     }
     //--
     // Adding new data s2hasilenkripsiBlowfish
@@ -436,7 +436,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public void deleteAllS2hasilenkripsiblowfish() {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("delete from "+ TABLE_S2HASILENKRIPSIBLOWFISH);
-        db.close();
+        //db.close();
     }
     //--
 
@@ -586,7 +586,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public void deleteAllS3hasilenkripsi() {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("delete from "+ TABLE_S3HASILENKRIPSI);
-        db.close();
+        //db.close();
     }
     //--
     // Adding new data s3hasilenkripsiBlowfish
@@ -633,7 +633,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public void deleteAllS3hasilenkripsiblowfish() {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("delete from "+ TABLE_S3HASILENKRIPSIBLOWFISH);
-        db.close();
+        //db.close();
     }
     //--
 
